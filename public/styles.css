@@ -1419,6 +1419,11 @@ video {
     line-height: 1.25rem;
   }
 
+  .sm\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .sm\:leading-6{
     line-height: 1.5rem;
   }
