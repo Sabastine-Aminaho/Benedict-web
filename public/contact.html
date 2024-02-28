@@ -1,0 +1,165 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - A-Class Consults</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-body text-secondary-100 text-sm font-Poppins">
+  <header class=" mx-auto relative container">
+    <nav class="mt-1 h-15 md:flex justify-between items-center p-3 border-b-2 border-secondary-200 text-secondary-600 ">
+
+        <div class="mx-1 md:mx-5 flex justify-between">
+                <div>
+                    <a href="index.html"><img class="md:w-40 w-24" src="img/logo.png" alt="logo"></a>
+                </div>
+                <svg class="md:w-10 w-8 md:hidden cursor-pointer" id="burger" xmlns="http://www.w3.org/2000/svg"  fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"/>
+                  </svg>
+        </div>
+        <ul class="md:flex mx-10 text-sm hidden" id="menu">
+                <li class="mx-5 py-4 hover:shadow-none transform hover:scale-110"><a href="index.html">Home</a></li>
+                <li class="mx-5 py-4 hover:shadow-none transform hover:scale-110"><a href="about.html">About</a></li>
+                <li class="mx-5 py-4 hover:shadow-none transform hover:scale-110"><a href="service.html">Services</a></li>
+                <li class="mx-5 py-4 hover:shadow-none transform hover:scale-110"><a href="blog.html">Blog</a></li>
+                <li class="mx-5 text-center border font-medium border-primary-800 rounded-3xl px-8 py-4 text-primary-800 hover:bg-primary-800 hover:text-secondary-100 transition ease-out duration-500 hover:shadow-inner transform hover:scale-110"><a href="contact.html">Contact Us</a></li>
+
+        </ul>  
+    </nav> 
+   
+</header>
+
+
+
+    <main class="wrapper bg-secondary-100 container mx-auto relative">
+        <div class="p-0 hero-contact-page mb-5">
+            <div class="hero bg-cover bg-center h-4/5 flex items-center justify-center relative " style="background-image: url('img/pexels-photo-821754 1.png'); ">
+                
+                <div class="overlay"></div>
+                <div class="container z-10 mx-auto text-center text-white py-20">
+                    <h1 class="text-4xl font-bold mb-4">Get In Touch</h1>
+                    <p class="text-lg">We'd love to hear from you! Reach out using the form below.</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center pb-3 pt-10">
+            <h1 class="font-bold text-3xl text-primary-800">Contact Us</h1>
+            <p class="text-secondary-500"> Get In Touch!</p>
+        </div>
+
+
+        <div class="md:bg-secondary-10000  md:mx-28 md:grid grid-cols-2 gap-10 mb-10 pb-5 pt-5 px-10 rounded-lg">
+            
+            <div>
+                <form action="" method="post" class="text-secondary-500 relative ">
+                    <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                        <div class="sm:col-span-3">
+                          <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">First name <span class="text-required-500">*</span></label>
+                          <div class="mt-2">
+                            <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block h-10 w-full rounded-md border-0 py-1.5 text-secondary-500 shadow-sm ring-1 ring-inset ring-primary-400 px-2 placeholder:text-secondary-400 focus:ring-2 focus:ring-inset focus:ring-primary-400 sm:text-sm sm:leading-6 focus:border-primary-500 focus:outline-none" required placeholder="Enter your first name">
+                          </div>
+                        </div>
+                
+                        <div class="sm:col-span-3">
+                          <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900">Last name <span class="text-required-500">*</span></label>
+                          <div class="mt-2">
+                            <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block h-10 w-full rounded-md border-0 py-1.5 text-secondary-500 shadow-sm ring-1 ring-inset ring-primary-400 px-2 placeholder:text-secondary-400 focus:ring-2 focus:ring-inset focus:ring-primary-400 sm:text-sm sm:leading-6 focus:border-primary-500 focus:outline-none" required placeholder="Enter your last name" required>
+                          </div>
+                        </div>
+                
+                        <div class="sm:col-span-3">
+                          <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email address <span class="text-required-500">*</span></label>
+                          <div class="mt-2">
+                            <input id="email" name="email" type="email" autocomplete="email" class="block h-10 w-full rounded-md border-0 py-1.5 text-secondary-500 shadow-sm ring-1 ring-inset ring-primary-400 px-2 placeholder:text-secondary-400 focus:ring-2 focus:ring-inset focus:ring-primary-400 sm:text-sm sm:leading-6 focus:border-primary-500 focus:outline-none" placeholder="Enter your email address" required>
+                          </div>
+                        </div>
+
+                        <div class="sm:col-span-3">
+                            <label for="tel" class="block text-sm font-medium leading-6 text-gray-900">Phone Number (Optional)</label>
+                            <div class="mt-2">
+                              <input id="phone" name="phone" type="tel" autocomplete="email" class="block h-10 w-full rounded-md border-0 py-1.5 text-secondary-500 shadow-sm ring-1 ring-inset ring-primary-400 px-2 placeholder:text-secondary-400 focus:ring-2 focus:ring-inset focus:ring-primary-400 sm:text-sm sm:leading-6 focus:border-primary-500 focus:outline-none" placeholder="Enter your phone number">
+                            </div>
+                          </div>
+                          <div class="col-span-full">
+                            <label for="address" class="block text-sm font-medium leading-6 text-gray-900">Home address <span>(Optional)</span></label>
+                            <div class="mt-2">
+                              <input id="address" name="address" type="text" autocomplete="address" class="block h-10 w-full rounded-md border-0 py-1.5 text-secondary-500 shadow-sm ring-1 ring-inset ring-primary-400 px-2 placeholder:text-secondary-400 focus:ring-2 focus:ring-inset focus:ring-primary-400 sm:text-sm sm:leading-6 focus:border-primary-500 focus:outline-none" placeholder="Enter your Home Address">
+                            </div>
+                          </div>
+                
+                        <div class="sm:col-span-6">
+                          <label for="country" class="block text-sm font-medium leading-6 text-gray-900">Country <span class="text-required-500">*</span></label>
+                          <div class="mt-2">
+                            <select id="country" name="country" autocomplete="country-name" class="block h-10 w-full rounded-md border-0 py-1.5 text-secondary-500 shadow-sm ring-1 ring-inset ring-primary-400 px-2 placeholder:text-secondary-400 focus:ring-2 focus:ring-inset focus:ring-primary-400 sm:text-sm sm:leading-6 focus:border-primary-500 focus:outline-none" required>
+                                <option>Select your region</option>
+                                <option>Australia</option>
+                                <option>Canada</option>
+                                <option>Germany</option>
+                                <option>Nigeria</option>
+                              <option>United Kingdom</option>
+                              <option>United State</option>
+                              <option>Others</option>  
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-span-full grid  grid-cols-2 ">
+                          <div class="service-inquiry">
+                            <input class="cursor-pointer" type="checkbox" name="Regular Inquiry" id=""> 
+                            <label for="">Service Inquiry</label>
+                          </div>
+                          <div class="regular-inquiry">
+                            <input class="cursor-pointer"type="checkbox" name="Regular Inquiry" id=""> 
+                            <label for="">Regular Inquiry</label>
+                          </div>
+                        </div>
+                
+                        <div class="col-span-full">
+                            <label for="about" class="block text-sm font-medium leading-6 text-gray-900">Send Us a Message!<span class="text-required-500">*</span></label>
+                            <div class="mt-2">
+                              <textarea id="message" name="message" rows="7" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:outline-none focus:ring-indigo-600 sm:text-sm sm:leading-6 px-2" placeholder="Send Us a Message!" required></textarea>
+                            </div>
+                          </div> 
+                          
+                        <div class="mx-auto  flex items-center justify-center">
+                            <button type="submit" class="border border-primary-800 rounded-lg py-3 px-8 font-semibold text-primary-800 flex hover:bg-primary-800 transition ease-out duration-500 hover:text-secondary-10000 ">Send <i class="fa fa-paper-plane " aria-hidden="true"></i></button> 
+                           
+                        </div>
+                          </div>
+                </form>
+
+            </div>
+
+            <div class="text-secondary-10000 text-center items-center bg-primary-800 px-5 pb-10 rounded-lg ">
+                <h1 class="font-bold text-2xl pb-5 mt-6 pt-5">Contact Information</h1>
+                <p> Any question? please give us a call or drop a message!</p>
+                <div>
+                
+                    <ul class="mt-10">
+                        <i class="fa fa-phone py-3" style="font-size:32px;color:white;" aria-hidden="true"></i>
+                        <li>+44 7544 742493, +234 706 1985 823</li>
+                    </ul>
+                    <ul class="mt-10">
+                        <i class="fa fa-envelope py-3" style="font-size:32px;color:white;" aria-hidden="true"></i>
+
+                        <li>info@aclassconsults.com</li>
+                    </ul>
+                    <ul class="mt-10">
+                        <i class="fa fa-building py-2" aria-hidden="true" style="font-size:32px;color:white;"></i>
+
+                        <li><span class="font-bold">Head Office:</span> Achievers Villa, Opposite University of Port Harcourt Teaching Hospital Main Gate, Alakahia, Rivers State, Nigeria.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>          
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.264832515251!2d6.935483468782619!3d4.895270729095342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069d115a1dd1575%3A0x94882a0758041fc4!2sAlakahia!5e0!3m2!1sen!2sng!4v1703763075118!5m2!1sen!2sng" width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
